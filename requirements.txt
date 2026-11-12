@@ -1,0 +1,11 @@
+fastapi==0.162.4
+uvicorn==0.54.0
+pydantic==2.14.3
+pandas==3.1.1
+numpy==2.5.4
+scikit-learn==1.9.1
+joblib==1.6.0
+matplotlib==3.11.2
+sqlalchemy==2.1.8
+pymysql==1.2.4
+python-dotenv==1.2.4
