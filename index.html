@@ -409,7 +409,7 @@
         <div class="fila">
           <div class="campo">
             <label for="edad">Edad (años)</label>
-            <input id="edad" name="edad" type="number" min="18" max="45" step="1" inputmode="numeric" required placeholder="22">
+            <input id="edad" name="edad" type="number" min="17" max="45" step="1" inputmode="numeric" required placeholder="22">
           </div>
           <div class="campo">
             <label for="estatura">Estatura (cm)</label>
@@ -542,7 +542,7 @@
 
   function mensajeDeError(estado, cuerpo) {
     if (estado === 422) {
-      return "Revisa los datos: la edad debe estar entre 18 y 45 años y la estatura entre 140 y 230 cm.";
+      return "Revisa los datos: la edad debe estar entre 17 y 45 años y la estatura entre 140 y 230 cm.";
     }
     if (cuerpo && typeof cuerpo.detail === "string") {
       return cuerpo.detail;

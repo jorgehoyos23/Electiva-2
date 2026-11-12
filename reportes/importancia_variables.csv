@@ -1,16 +1,16 @@
 ,importancia
-edad,0.7736826217515196
-estatura_cm,0.10636543835593665
-posicion_Goalkeeper,0.07624274242940746
-posicion_Sin Posicion,0.011866126052234085
-posicion_Left Winger,0.00879306359515869
-posicion_Left Midfield,0.005080548259581226
-posicion_Right Winger,0.004057393287026249
-posicion_Defensive Midfield,0.0030524961279901415
-posicion_Centre-Back,0.002866417463084234
-posicion_Central Midfield,0.0019006541707269511
-posicion_Centre-Forward,0.0017482345451656737
-posicion_Left-Back,0.0014239444007099736
-posicion_Second Striker,0.0011665891559727395
-posicion_Right Midfield,0.0009597323633124139
-posicion_Right-Back,0.0007939980421740934
+edad,0.7900511526623204
+estatura_cm,0.08986880537995677
+posicion_Goalkeeper,0.0795841561212169
+posicion_Left Winger,0.009316140762258967
+posicion_Sin Posicion,0.008801404800939914
+posicion_Left Midfield,0.0052358279687134395
+posicion_Centre-Back,0.0035515183610932343
+posicion_Right Winger,0.0035067412494364514
+posicion_Defensive Midfield,0.0026392582092161125
+posicion_Centre-Forward,0.0019446685236611905
+posicion_Central Midfield,0.0016838597414880077
+posicion_Left-Back,0.0013985343028530162
+posicion_Right Midfield,0.0009786145758722636
+posicion_Right-Back,0.0007220352156727774
+posicion_Second Striker,0.0007172821253006139

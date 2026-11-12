@@ -53,8 +53,8 @@ def main():
     df['valor_mercado'] = pd.to_numeric(df['valor_mercado'], errors='coerce')
     df['posicion'] = df['posicion'].fillna('Sin Posicion')
 
-    # Rango de edad permitido en el proyecto: 18 a 45 años
-    EDAD_MIN, EDAD_MAX = 18, 45
+    # Rango de edad permitido en el proyecto: 17 a 45 años
+    EDAD_MIN, EDAD_MAX = 17, 45
     total_antes = len(df)
     df = df[df['edad'].between(EDAD_MIN, EDAD_MAX)].copy()
     print(f"[OK] Filtro de edad {EDAD_MIN}-{EDAD_MAX} años: {len(df)} de {total_antes} jugadores")
