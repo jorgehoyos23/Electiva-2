@@ -45,7 +45,7 @@ class JugadorEntrada(BaseModel):
     """Esquema de validación (Pydantic) del JSON de entrada."""
     jugador: Optional[str] = Field(None, description="Nombre del candidato (opcional)")
     posicion: str = Field(..., description="Posición del jugador")
-    edad: float = Field(..., ge=15, le=50, description="Edad en años")
+    edad: float = Field(..., ge=18, le=45, description="Edad en años")
     estatura_cm: Optional[float] = Field(None, ge=140, le=230,
                                          description="Estatura en cm (si se omite, se imputa por mediana)")
 

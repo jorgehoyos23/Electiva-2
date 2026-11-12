@@ -52,7 +52,13 @@ def main():
     df['edad'] = pd.to_numeric(df['edad'], errors='coerce')
     df['valor_mercado'] = pd.to_numeric(df['valor_mercado'], errors='coerce')
     df['posicion'] = df['posicion'].fillna('Sin Posicion')
- 
+
+    # Rango de edad permitido en el proyecto: 18 a 45 años
+    EDAD_MIN, EDAD_MAX = 18, 45
+    total_antes = len(df)
+    df = df[df['edad'].between(EDAD_MIN, EDAD_MAX)].copy()
+    print(f"[OK] Filtro de edad {EDAD_MIN}-{EDAD_MAX} años: {len(df)} de {total_antes} jugadores")
+
     # Guardar las medianas de imputación para reutilizar en producción
     medianas_estatura = df.groupby('posicion')['estatura_cm'].median().to_dict()
     mediana_global_estatura = df['estatura_cm'].median()
